@@ -1,0 +1,6 @@
+/root/AndroidIDE/core/ai-cli/src/main/java/com/itsaky/androidide/actions/sidebar/AiCliSidebarAction.kt
+/root/AndroidIDE/core/ai-cli/src/main/java/com/itsaky/androidide/ai/GeminiAiCli.kt
+/root/AndroidIDE/core/ai-cli/src/main/java/com/itsaky/androidide/ai/AiCodeAssistant.kt
+/root/AndroidIDE/core/ai-cli/src/main/java/com/itsaky/androidide/ai/AiTerminalService.kt
+/root/AndroidIDE/core/ai-cli/src/main/java/com/itsaky/androidide/ai/TerminalAiIntegration.kt
+/root/AndroidIDE/core/ai-cli/src/main/java/com/itsaky/androidide/ai/AiCliSidebarFragment.kt

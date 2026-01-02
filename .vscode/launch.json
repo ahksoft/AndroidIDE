@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "AndroidIDE Java LSP",
+      "request": "launch",
+      "mainClass": "com.itsaky.androidide.lsp.java.JavaLanguageServer",
+      "projectName": "AndroidIDE",
+      "args": [],
+      "vmArgs": "-Xmx2g"
+    }
+  ]
+}

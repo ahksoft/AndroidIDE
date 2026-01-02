@@ -1,0 +1,621 @@
+[2026-01-02 01:38:40.389 Uid(value=10439):8783:8783 I/libc]
+SetHeapTaggingLevel: tag level set to 0
+
+[2026-01-02 01:38:40.393 Uid(value=10439):8783:8783 I/Zygote]
+Process 8783 created for com.itsaky.androidide
+
+[2026-01-02 01:38:40.393 Uid(value=10439):8783:8783 I/saky.androidide]
+Late-enabling -Xcheck:jni
+
+[2026-01-02 01:38:40.413 Uid(value=10439):8783:8783 I/saky.androidide]
+Using CollectorTypeCMC GC.
+
+[2026-01-02 01:38:40.420 Uid(value=10439):8783:8783 W/libbinder.BackendUnifiedServiceManager]
+Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+
+[2026-01-02 01:38:40.426 Uid(value=10439):8783:8783 D/nativeloader]
+Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+
+[2026-01-02 01:38:40.457 Uid(value=10439):8783:8783 D/ApplicationLoaders]
+Returning zygote-cached class loader: /system/framework/android.test.base.jar
+
+[2026-01-02 01:38:40.458 Uid(value=10439):8783:8783 D/ApplicationLoaders]
+Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+
+[2026-01-02 01:38:40.458 Uid(value=10439):8783:8783 D/ApplicationLoaders]
+Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+
+[2026-01-02 01:38:40.831 Uid(value=10439):8783:8783 D/nativeloader]
+Configuring clns-9 for other apk /data/app/~~OelJS89jQRCOlOjtwz1YXw==/com.itsaky.androidide-qqQd0OEhennCnK_ko4txTQ==/base.apk. target_sdk_version=28, uses_libraries=, library_path=/data/app/~~OelJS89jQRCOlOjtwz1YXw==/com.itsaky.androidide-qqQd0OEhennCnK_ko4txTQ==/lib/arm64:/data/app/~~OelJS89jQRCOlOjtwz1YXw==/com.itsaky.androidide-qqQd0OEhennCnK_ko4txTQ==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.itsaky.androidide
+
+[2026-01-02 01:38:40.839 Uid(value=10439):8783:8783 V/GraphicsEnvironment]
+Currently set values for:
+
+[2026-01-02 01:38:40.839 Uid(value=10439):8783:8783 V/GraphicsEnvironment]
+  angle_gl_driver_selection_pkgs=[com.android.angle]
+
+[2026-01-02 01:38:40.839 Uid(value=10439):8783:8783 V/GraphicsEnvironment]
+  angle_gl_driver_selection_values=[angle]
+
+[2026-01-02 01:38:40.839 Uid(value=10439):8783:8783 V/GraphicsEnvironment]
+com.itsaky.androidide is not listed in per-application setting
+
+[2026-01-02 01:38:40.839 Uid(value=10439):8783:8783 V/GraphicsEnvironment]
+No special selections for ANGLE, returning default driver choice
+
+[2026-01-02 01:38:40.839 Uid(value=10439):8783:8783 V/GraphicsEnvironment]
+Neither updatable production driver nor prerelease driver is supported.
+
+[2026-01-02 01:38:40.885 Uid(value=10439):8783:8783 D/nativeloader]
+Load /data/app/~~OelJS89jQRCOlOjtwz1YXw==/com.itsaky.androidide-qqQd0OEhennCnK_ko4txTQ==/lib/arm64/libandroid-tree-sitter.so using class loader ns clns-9 (caller=/data/app/~~OelJS89jQRCOlOjtwz1YXw==/com.itsaky.androidide-qqQd0OEhennCnK_ko4txTQ==/base.apk!classes19.dex): ok
+
+[2026-01-02 01:38:40.895 Uid(value=10439):8783:8783 D/WM-WrkMgrInitializer]
+Initializing WorkManager with default configuration.
+
+[2026-01-02 01:38:40.909 Uid(value=10439):8783:8783 D/WM-PackageManagerHelper]
+Skipping component enablement for androidx.work.impl.background.systemjob.SystemJobService
+
+[2026-01-02 01:38:40.909 Uid(value=10439):8783:8783 D/WM-Schedulers]
+Created SystemJobScheduler and enabled SystemJobService
+
+[2026-01-02 01:38:40.926 Uid(value=10439):8783:8783 I/saky.androidide]
+hiddenapi: Accessing hidden method Landroid/view/WindowManagerGlobal;->getInstance()Landroid/view/WindowManagerGlobal; (runtime_flags=0, domain=platform, api=unsupported) from Lcurtains/internal/WindowManagerSpy$windowManagerInstance$2; (domain=app, TargetSdkVersion=28) using reflection: allowed
+
+[2026-01-02 01:38:40.926 Uid(value=10439):8783:8783 I/saky.androidide]
+hiddenapi: Accessing hidden field Landroid/view/WindowManagerGlobal;->mViews:Ljava/util/ArrayList; (runtime_flags=0, domain=platform, api=unsupported) from Lcurtains/internal/WindowManagerSpy$mViewsField$2; (domain=app, TargetSdkVersion=28) using reflection: allowed
+
+[2026-01-02 01:38:40.926 Uid(value=10439):8783:8783 I/saky.androidide]
+hiddenapi: Accessing hidden field Landroid/app/ActivityThread;->mH:Landroid/app/ActivityThread$H; (runtime_flags=0, domain=platform, api=unsupported) from Lleakcanary/ServiceWatcher; (domain=app, TargetSdkVersion=28) using reflection: allowed
+
+[2026-01-02 01:38:40.926 Uid(value=10439):8783:8783 I/saky.androidide]
+hiddenapi: Accessing hidden method Landroid/app/ActivityThread;->currentActivityThread()Landroid/app/ActivityThread; (runtime_flags=0, domain=platform, api=unsupported) from Lleakcanary/ServiceWatcher$activityThreadInstance$2; (domain=app, TargetSdkVersion=28) using reflection: allowed
+
+[2026-01-02 01:38:40.926 Uid(value=10439):8783:8783 I/saky.androidide]
+hiddenapi: Accessing hidden field Landroid/os/Handler;->mCallback:Landroid/os/Handler$Callback; (runtime_flags=0, domain=platform, api=unsupported) from Lleakcanary/ServiceWatcher; (domain=app, TargetSdkVersion=28) using reflection: allowed
+
+[2026-01-02 01:38:40.926 Uid(value=10439):8783:8783 I/saky.androidide]
+hiddenapi: Accessing hidden field Landroid/util/Singleton;->mInstance:Ljava/lang/Object; (runtime_flags=0, domain=platform, api=unsupported) from Lleakcanary/ServiceWatcher; (domain=app, TargetSdkVersion=28) using reflection: allowed
+
+[2026-01-02 01:38:40.926 Uid(value=10439):8783:8783 I/saky.androidide]
+hiddenapi: Accessing hidden method Landroid/util/Singleton;->get()Ljava/lang/Object; (runtime_flags=0, domain=platform, api=unsupported) from Lleakcanary/ServiceWatcher; (domain=app, TargetSdkVersion=28) using reflection: allowed
+
+[2026-01-02 01:38:40.927 Uid(value=10439):8783:8783 I/saky.androidide]
+hiddenapi: Accessing hidden field Landroid/app/ActivityManager;->IActivityManagerSingleton:Landroid/util/Singleton; (runtime_flags=0, domain=platform, api=unsupported) from Lleakcanary/ServiceWatcher; (domain=app, TargetSdkVersion=28) using reflection: allowed
+
+[2026-01-02 01:38:40.932 Uid(value=10439):8783:8783 D/DesktopExperienceFlags]
+Toggle override initialized to: false
+
+[2026-01-02 01:38:40.957 Uid(value=10439):8783:8783 E/com.itsaky.androidide.*]
+02-01 01:38:40.941 ERROR [main] Environment: Unable to set executable permissions to file: /data/user/0/com.itsaky.androidide/files/usr/opt/openjdk/bin/java
+
+[2026-01-02 01:38:40.957 Uid(value=10439):8783:8783 E/com.itsaky.androidide.*]
+02-01 01:38:40.957 ERROR [main] Environment: Unable to set executable permissions to file: /data/user/0/com.itsaky.androidide/files/usr/bin/bash
+
+[2026-01-02 01:38:41.026 Uid(value=10439):8783:8805 D/com.itsaky.androidide.*]
+02-01 01:38:41.026 DEBUG [ForkJoinPool.commonPool-worker-1] JdkDistributionProviderImpl: Setting Environment.JAVA_HOME to 
+
+[2026-01-02 01:38:41.026 Uid(value=10439):8783:8783 W/onPool-worker-1]
+type=1400 audit(0.0:2113): avc:  granted  { execute } for  name="aapt2" dev="dm-53" ino=909377 scontext=u:r:untrusted_app_27:s0:c183,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c183,c257,c512,c768 tclass=file app=com.itsaky.androidide
+
+[2026-01-02 01:38:41.029 Uid(value=10439):8783:8783 W/AndroidIDE.SharedProperties]
+Not loading properties since file is null
+
+[2026-01-02 01:38:41.030 Uid(value=10439):8783:8783 I/AndroidIDE.TermuxApplication]
+Termux files directory is accessible
+
+[2026-01-02 01:38:41.035 Uid(value=10439):8783:8783 D/nativeloader]
+Load liblocal-socket.so using class loader ns clns-9 (caller=/data/app/~~OelJS89jQRCOlOjtwz1YXw==/com.itsaky.androidide-qqQd0OEhennCnK_ko4txTQ==/base.apk!classes2.dex): dlopen failed: library "liblocal-socket.so" not found
+
+[2026-01-02 01:38:41.036 Uid(value=10439):8783:8783 E/AndroidIDE.LocalSocketManager]
+Error Code: `100`
+Error Message (LocalSocket Error):
+```
+Failed to load "local-socket" library.
+Exception: dlopen failed: library "liblocal-socket.so" not found
+```
+
+[2026-01-02 01:38:41.061 Uid(value=10439):8783:8810 I/DisplayManager]
+Choreographer implicitly registered for the refresh rate.
+
+[2026-01-02 01:38:41.062 Uid(value=10439):8783:8810 D/vulkan]
+searching for layers in '/data/app/~~OelJS89jQRCOlOjtwz1YXw==/com.itsaky.androidide-qqQd0OEhennCnK_ko4txTQ==/lib/arm64'
+
+[2026-01-02 01:38:41.063 Uid(value=10439):8783:8810 D/vulkan]
+searching for layers in '/data/app/~~OelJS89jQRCOlOjtwz1YXw==/com.itsaky.androidide-qqQd0OEhennCnK_ko4txTQ==/base.apk!/lib/arm64-v8a'
+
+[2026-01-02 01:38:41.082 Uid(value=10439):8783:8783 D/DesktopModeFlags]
+Toggle override initialized to: OVERRIDE_UNSET
+
+[2026-01-02 01:38:41.084 Uid(value=10439):8783:8802 D/LeakCanary]
+LeakCanary is running and ready to detect memory leaks.
+
+[2026-01-02 01:38:41.188 Uid(value=10439):8783:8783 I/HWUI]
+Using FreeType backend (prop=Auto)
+
+[2026-01-02 01:38:41.210 Uid(value=10439):8783:8808 D/com.itsaky.androidide.*]
+02-01 01:38:41.209 DEBUG [DefaultDispatcher-worker-1] JdkDistributionProviderImpl: Setting Environment.JAVA_HOME to 
+
+[2026-01-02 01:38:41.220 Uid(value=10439):8783:8783 D/InsetsController]
+Setting requestedVisibleTypes to 496 (was 503)
+
+[2026-01-02 01:38:41.220 Uid(value=10439):8783:8783 D/InsetsController]
+Setting requestedVisibleTypes to 503 (was 496)
+
+[2026-01-02 01:38:41.226 Uid(value=10439):8783:8783 D/WindowOnBackDispatcher]
+setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@56c4253
+
+[2026-01-02 01:38:41.226 Uid(value=10439):8783:8783 D/WindowOnBackDispatcher]
+setTopOnBackInvokedCallback (unwrapped): androidx.activity.OnBackPressedDispatcher$Api34Impl$createOnBackAnimationCallback$1@baf3889
+
+[2026-01-02 01:38:41.232 Uid(value=10439):8783:8783 D/VRI[OnboardingActivity]]
+WindowInsets changed: 1440x3120 statusBars:[0,145,0,0] navigationBars:[0,0,0,84] mandatorySystemGestures:[0,187,0,112] 
+
+[2026-01-02 01:38:41.445 Uid(value=10439):8783:8783 D/InsetsController]
+hide(ime())
+
+[2026-01-02 01:38:41.445 Uid(value=10439):8783:8783 I/ImeTracker]
+com.itsaky.androidide:fb374b11: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+
+[2026-01-02 01:38:41.449 Uid(value=10439):8783:8783 D/LeakCanary]
+Watching instance of androidx.lifecycle.ReportFragment (androidx.lifecycle.ReportFragment received Fragment#onDestroy() callback) with key e339ac34-d547-4f83-a3ee-ad989c13872a
+
+[2026-01-02 01:38:41.450 Uid(value=10439):8783:8783 D/LeakCanary]
+Watching instance of com.itsaky.androidide.activities.SplashActivity (com.itsaky.androidide.activities.SplashActivity received Activity#onDestroy() callback) with key 1c474832-7973-40eb-834a-fc710f08d737
+
+[2026-01-02 01:38:41.584 Uid(value=10439):8783:8788 I/saky.androidide]
+Compiler allocated 5038KB to compile void android.view.ViewRootImpl.performTraversals()
+
+[2026-01-02 01:38:42.835 Uid(value=10439):8783:8783 D/Log: AppIntroBase]
+Change request will be allowed.
+
+[2026-01-02 01:38:45.213 Uid(value=10439):8783:8783 D/WindowOnBackDispatcher]
+setTopOnBackInvokedCallback (unwrapped): android.widget.AutoCompleteTextView$$ExternalSyntheticLambda0@c7b6a3d
+
+[2026-01-02 01:38:45.220 Uid(value=10439):8783:8783 D/WindowOnBackDispatcher]
+setTopOnBackInvokedCallback (unwrapped): android.widget.PopupWindow$PopupDecorView$$ExternalSyntheticLambda1@7b96d39
+
+[2026-01-02 01:38:46.249 Uid(value=10439):8783:8836 D/ProfileInstaller]
+Installing profile for com.itsaky.androidide
+
+[2026-01-02 01:38:46.474 Uid(value=10439):8783:8802 W/saky.androidide]
+Cleared Reference was only reachable from finalizer (only reported once)
+
+[2026-01-02 01:38:46.476 Uid(value=10439):8783:8802 W/saky.androidide]
+userfaultfd: MOVE ioctl seems unsupported: Success
+
+[2026-01-02 01:38:46.494 Uid(value=10439):8783:8802 I/saky.androidide]
+Explicit concurrent mark compact GC freed 6645KB AllocSpace bytes, 25(1640KB) LOS objects, 79% free, 6367KB/30MB, paused 177us,2.965ms total 43.133ms
+
+[2026-01-02 01:38:47.022 Uid(value=10439):8783:8783 D/WindowOnBackDispatcher]
+setTopOnBackInvokedCallback (unwrapped): null
+
+[2026-01-02 01:38:47.024 Uid(value=10439):8783:8810 D/HWUI]
+endAllActiveAnimators on 0x6daa13a650 (DropDownListView) with handle 0x6dea138010
+
+[2026-01-02 01:38:47.031 Uid(value=10439):8783:8783 D/WindowOnBackDispatcher]
+setTopOnBackInvokedCallback (unwrapped): androidx.activity.OnBackPressedDispatcher$Api34Impl$createOnBackAnimationCallback$1@baf3889
+
+[2026-01-02 01:38:47.638 Uid(value=10439):8783:8783 D/WindowOnBackDispatcher]
+setTopOnBackInvokedCallback (unwrapped): android.widget.AutoCompleteTextView$$ExternalSyntheticLambda0@861fc19
+
+[2026-01-02 01:38:47.648 Uid(value=10439):8783:8783 D/WindowOnBackDispatcher]
+setTopOnBackInvokedCallback (unwrapped): android.widget.PopupWindow$PopupDecorView$$ExternalSyntheticLambda1@78d40d5
+
+[2026-01-02 01:38:51.778 Uid(value=10439):8783:8783 D/WindowOnBackDispatcher]
+setTopOnBackInvokedCallback (unwrapped): null
+
+[2026-01-02 01:38:51.780 Uid(value=10439):8783:8810 D/HWUI]
+endAllActiveAnimators on 0x6daa0f05d0 (DropDownListView) with handle 0x6dea13d1a0
+
+[2026-01-02 01:38:51.786 Uid(value=10439):8783:8783 D/WindowOnBackDispatcher]
+setTopOnBackInvokedCallback (unwrapped): androidx.activity.OnBackPressedDispatcher$Api34Impl$createOnBackAnimationCallback$1@baf3889
+
+[2026-01-02 01:38:53.707 Uid(value=10439):8783:8783 D/Log: AppIntroBase]
+Change request will be allowed.
+
+[2026-01-02 01:38:53.741 Uid(value=10439):8783:8783 W/AndroidIDE.SharedProperties]
+Not loading properties since file is null
+
+[2026-01-02 01:38:53.779 Uid(value=10439):8783:8783 D/WindowOnBackDispatcher]
+setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@b44b775
+
+[2026-01-02 01:38:53.780 Uid(value=10439):8783:8783 D/VRI[TerminalActivity]]
+WindowInsets changed: 1440x3120 statusBars:[0,145,0,0] navigationBars:[0,0,0,84] mandatorySystemGestures:[0,187,0,112] 
+
+[2026-01-02 01:38:53.792 Uid(value=10439):8783:8845 D/MediaCodecList]
+codecHandlesFormat: no format, so no extra checks
+
+[2026-01-02 01:38:53.800 Uid(value=10439):8783:8847 D/CCodec]
+allocate(c2.android.vorbis.decoder)
+
+[2026-01-02 01:38:53.819 Uid(value=10439):8783:8847 I/ApexCodecsLazy]
+Failed to find symbol 'ApexCodec_GetMapFn' in libcom.android.media.swcodec.apexcodecs.so: undefined symbol: ApexCodec_GetMapFn
+
+[2026-01-02 01:38:53.819 Uid(value=10439):8783:8847 I/ApexCodecsLazy]
+Failed to find symbol 'ApexCodec_GetUnmapFn' in libcom.android.media.swcodec.apexcodecs.so: undefined symbol: ApexCodec_GetUnmapFn
+
+[2026-01-02 01:38:53.819 Uid(value=10439):8783:8847 I/ApexCodecsLazy]
+Uninitialized method in libcom.android.media.swcodec.apexcodecs_lazy at index: 24
+
+[2026-01-02 01:38:53.819 Uid(value=10439):8783:8847 I/Codec2Client]
+Available Codec2 services: "default" "default1" "default2" "software"
+
+[2026-01-02 01:38:53.821 Uid(value=10439):8783:8847 I/CCodec]
+setting up 'default' as default (vendor) store
+
+[2026-01-02 01:38:53.829 Uid(value=10439):8783:8847 I/CCodec]
+Created component [c2.android.vorbis.decoder] for [c2.android.vorbis.decoder]
+
+[2026-01-02 01:38:53.830 Uid(value=10439):8783:8847 D/CCodecConfig]
+read media type: audio/vorbis
+
+[2026-01-02 01:38:53.831 Uid(value=10439):8783:8847 D/ReflectedParamUpdater]
+extent() != 1 for single value type: algo.buffers.max-count.values
+
+[2026-01-02 01:38:53.831 Uid(value=10439):8783:8847 D/ReflectedParamUpdater]
+extent() != 1 for single value type: output.subscribed-indices.values
+
+[2026-01-02 01:38:53.831 Uid(value=10439):8783:8847 D/ReflectedParamUpdater]
+extent() != 1 for single value type: input.buffers.allocator-ids.values
+
+[2026-01-02 01:38:53.831 Uid(value=10439):8783:8847 D/ReflectedParamUpdater]
+extent() != 1 for single value type: output.buffers.allocator-ids.values
+
+[2026-01-02 01:38:53.831 Uid(value=10439):8783:8847 D/ReflectedParamUpdater]
+extent() != 1 for single value type: algo.buffers.allocator-ids.values
+
+[2026-01-02 01:38:53.831 Uid(value=10439):8783:8847 D/ReflectedParamUpdater]
+extent() != 1 for single value type: output.buffers.pool-ids.values
+
+[2026-01-02 01:38:53.831 Uid(value=10439):8783:8847 D/ReflectedParamUpdater]
+extent() != 1 for single value type: algo.buffers.pool-ids.values
+
+[2026-01-02 01:38:53.834 Uid(value=10439):8783:8847 I/CCodecConfig]
+query failed after returning 8 values (BAD_INDEX)
+
+[2026-01-02 01:38:53.834 Uid(value=10439):8783:8847 D/CCodecConfig]
+c2 config diff is Dict {
+  c2::u32 coded.bitrate.value = 64000
+  c2::u32 input.buffers.max-size.value = 32768
+  c2::u32 input.delay.value = 0
+  string input.media-type.value = "audio/vorbis"
+  c2::u32 output.large-frame.max-size = 0
+  c2::u32 output.large-frame.threshold-size = 0
+  string output.media-type.value = "audio/raw"
+  c2::u32 raw.channel-count.value = 1
+  c2::u32 raw.sample-rate.value = 48000
+}
+
+[2026-01-02 01:38:53.836 Uid(value=10439):8783:8845 I/MediaCodec]
+media_quality service unavailable, skipping updatePictureProfile
+
+[2026-01-02 01:38:53.836 Uid(value=10439):8783:8847 D/CCodec]
+[c2.android.vorbis.decoder] buffers are bound to CCodec for this session
+
+[2026-01-02 01:38:53.836 Uid(value=10439):8783:8847 D/CCodecConfig]
+no c2 equivalents for durationUs
+
+[2026-01-02 01:38:53.836 Uid(value=10439):8783:8847 D/CCodecConfig]
+no c2 equivalents for track-id
+
+[2026-01-02 01:38:53.836 Uid(value=10439):8783:8847 D/CCodecConfig]
+no c2 equivalents for csd-1
+
+[2026-01-02 01:38:53.836 Uid(value=10439):8783:8847 D/CCodecConfig]
+no c2 equivalents for flags
+
+[2026-01-02 01:38:53.837 Uid(value=10439):8783:8847 D/CCodecConfig]
+c2 config diff is   c2::u32 coded.bitrate.value = 96000
+  c2::u32 raw.sample-rate.value = 44100
+
+[2026-01-02 01:38:53.837 Uid(value=10439):8783:8847 D/CCodec]
+encoding statistics level = 0
+
+[2026-01-02 01:38:53.837 Uid(value=10439):8783:8847 D/CCodec]
+setup formats input: AMessage(what = 0x00000000) = {
+  int32_t bitrate = 96000
+  int32_t channel-count = 1
+  int32_t max-input-size = 32768
+  string mime = "audio/vorbis"
+  int32_t sample-rate = 44100
+}
+
+[2026-01-02 01:38:53.837 Uid(value=10439):8783:8847 D/CCodec]
+setup formats output: AMessage(what = 0x00000000) = {
+  int32_t buffer-batch-max-output-size = 0
+  int32_t buffer-batch-threshold-output-size = 0
+  int32_t channel-count = 1
+  string mime = "audio/raw"
+  int32_t sample-rate = 44100
+  int32_t channel-mask = 1
+  int32_t android._config-pcm-encoding = 2
+}
+
+[2026-01-02 01:38:53.837 Uid(value=10439):8783:8847 I/CCodecConfig]
+query failed after returning 8 values (BAD_INDEX)
+
+[2026-01-02 01:38:53.837 Uid(value=10439):8783:8847 E/saky.androidide]
+Failed to query component interface for required system resources: 6
+
+[2026-01-02 01:38:53.838 Uid(value=10439):8783:8847 D/C2Store]
+debug.c2.use_dmabufheaps set, forcing DMABUF Heaps
+
+[2026-01-02 01:38:53.838 Uid(value=10439):8783:8847 D/C2Store]
+Using DMABUF Heaps
+
+[2026-01-02 01:38:53.839 Uid(value=10439):8783:8847 D/CCodecBufferChannel]
+[c2.android.vorbis.decoder#262] Created input block pool with allocatorID 16 => poolID 17 - OK (0)
+
+[2026-01-02 01:38:53.840 Uid(value=10439):8783:8847 I/CCodecBufferChannel]
+[c2.android.vorbis.decoder#262] Created output block pool with allocatorID 16 => poolID 54 - OK
+
+[2026-01-02 01:38:53.840 Uid(value=10439):8783:8847 D/CCodecBufferChannel]
+[c2.android.vorbis.decoder#262] Configured output block pool ids 54 => OK
+
+[2026-01-02 01:38:53.842 Uid(value=10439):8783:8847 W/saky.androidide]
+AIBinder_linkToDeath is being called with a non-null cookie and no onUnlink callback set. Use AIBinder_DeathRecipient_setOnUnlinked to manage the lifetime of the cookie. This will become an abort.
+
+[2026-01-02 01:38:53.846 Uid(value=10439):8783:8794 W/saky.androidide]
+AIBinder_linkToDeath is being called with a non-null cookie and no onUnlink callback set. Use AIBinder_DeathRecipient_setOnUnlinked to manage the lifetime of the cookie. This will become an abort.
+
+[2026-01-02 01:38:53.863 Uid(value=10439):8783:8847 D/CCodecBuffers]
+[c2.android.vorbis.decoder#262:Output[N]] grabBuffer failed: -12
+
+[2026-01-02 01:38:53.863 Uid(value=10439):8783:8847 D/CCodecBuffers]
+[c2.android.vorbis.decoder#262:Output[N]] reallocating with linear buffer of size 4096
+
+[2026-01-02 01:38:53.865 Uid(value=10439):8783:8847 D/CCodecBufferChannel]
+[c2.android.vorbis.decoder#262] MediaCodec discarded an unknown buffer
+
+[2026-01-02 01:38:53.865 Uid(value=10439):8783:8847 D/CCodecBufferChannel]
+[c2.android.vorbis.decoder#262] MediaCodec discarded an unknown buffer
+
+[2026-01-02 01:38:53.865 Uid(value=10439):8783:8847 D/CCodecBufferChannel]
+[c2.android.vorbis.decoder#262] MediaCodec discarded an unknown buffer
+
+[2026-01-02 01:38:53.873 Uid(value=10439):8783:8783 I/AssistStructure]
+Flattened final assist data: 4216 bytes, containing 1 windows, 29 views
+
+[2026-01-02 01:38:53.876 Uid(value=10439):8783:8783 I/AndroidIDE.TermuxInstaller]
+The termux prefix directory "/data/data/com.itsaky.androidide/files/usr" does not exist but another file exists at its destination.
+
+[2026-01-02 01:38:53.890 Uid(value=10439):8783:8858 I/AndroidIDE.TermuxInstaller]
+Installing AndroidIDE bootstrap packages.
+
+[2026-01-02 01:38:53.892 Uid(value=10439):8783:8783 D/WindowOnBackDispatcher]
+setTopOnBackInvokedCallback (unwrapped): android.app.Dialog$$ExternalSyntheticLambda2@d04a02c
+
+[2026-01-02 01:38:53.895 Uid(value=10439):8783:8858 I/AndroidIDE.TermuxInstaller]
+Extracting bootstrap zip to prefix staging directory "/data/data/com.itsaky.androidide/files/usr-staging".
+
+[2026-01-02 01:38:53.895 Uid(value=10439):8783:8858 D/nativeloader]
+Load libtermux-bootstrap.so using class loader ns clns-9 (caller=/data/app/~~OelJS89jQRCOlOjtwz1YXw==/com.itsaky.androidide-qqQd0OEhennCnK_ko4txTQ==/base.apk!classes2.dex): dlopen failed: library "libtermux-bootstrap.so" not found
+
+[2026-01-02 01:38:53.896 Uid(value=10439):8783:8858 E/AndroidRuntime]
+FATAL EXCEPTION: Thread-11
+Process: com.itsaky.androidide, PID: 8783
+java.lang.UnsatisfiedLinkError: dlopen failed: library "libtermux-bootstrap.so" not found
+	at java.lang.Runtime.loadLibrary0(Runtime.java:1097)
+	at java.lang.Runtime.loadLibrary0(Runtime.java:1019)
+	at java.lang.System.loadLibrary(System.java:1765)
+	at com.termux.app.TermuxInstaller.loadZipBytes(TermuxInstaller.java:377)
+	at com.termux.app.TermuxInstaller$1.run(TermuxInstaller.java:156)
+
+[2026-01-02 01:38:53.900 Uid(value=10439):8783:8783 D/WindowOnBackDispatcher]
+setTopOnBackInvokedCallback (unwrapped): null
+
+[2026-01-02 01:38:53.915 Uid(value=10439):8783:8858 I/Process]
+Sending signal. PID: 8783 SIG: 9
+
+[2026-01-02 01:38:53.995 Uid(value=10439):8861:8861 I/libc]
+SetHeapTaggingLevel: tag level set to 0
+
+[2026-01-02 01:38:54.003 Uid(value=10439):8861:8861 I/Zygote]
+Process 8861 created for com.itsaky.androidide
+
+[2026-01-02 01:38:54.004 Uid(value=10439):8861:8861 I/saky.androidide]
+Late-enabling -Xcheck:jni
+
+[2026-01-02 01:38:54.022 Uid(value=10439):8861:8861 I/saky.androidide]
+Using CollectorTypeCMC GC.
+
+[2026-01-02 01:38:54.034 Uid(value=10439):8861:8861 W/libbinder.BackendUnifiedServiceManager]
+Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+
+[2026-01-02 01:38:54.037 Uid(value=10439):8861:8861 D/nativeloader]
+Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+
+[2026-01-02 01:38:54.053 Uid(value=10439):8861:8861 D/ApplicationLoaders]
+Returning zygote-cached class loader: /system/framework/android.test.base.jar
+
+[2026-01-02 01:38:54.053 Uid(value=10439):8861:8861 D/ApplicationLoaders]
+Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+
+[2026-01-02 01:38:54.053 Uid(value=10439):8861:8861 D/ApplicationLoaders]
+Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+
+[2026-01-02 01:38:54.408 Uid(value=10439):8861:8861 D/nativeloader]
+Configuring clns-9 for other apk /data/app/~~OelJS89jQRCOlOjtwz1YXw==/com.itsaky.androidide-qqQd0OEhennCnK_ko4txTQ==/base.apk. target_sdk_version=28, uses_libraries=, library_path=/data/app/~~OelJS89jQRCOlOjtwz1YXw==/com.itsaky.androidide-qqQd0OEhennCnK_ko4txTQ==/lib/arm64:/data/app/~~OelJS89jQRCOlOjtwz1YXw==/com.itsaky.androidide-qqQd0OEhennCnK_ko4txTQ==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.itsaky.androidide
+
+[2026-01-02 01:38:54.413 Uid(value=10439):8861:8861 V/GraphicsEnvironment]
+Currently set values for:
+
+[2026-01-02 01:38:54.413 Uid(value=10439):8861:8861 V/GraphicsEnvironment]
+  angle_gl_driver_selection_pkgs=[com.android.angle]
+
+[2026-01-02 01:38:54.413 Uid(value=10439):8861:8861 V/GraphicsEnvironment]
+  angle_gl_driver_selection_values=[angle]
+
+[2026-01-02 01:38:54.413 Uid(value=10439):8861:8861 V/GraphicsEnvironment]
+com.itsaky.androidide is not listed in per-application setting
+
+[2026-01-02 01:38:54.413 Uid(value=10439):8861:8861 V/GraphicsEnvironment]
+No special selections for ANGLE, returning default driver choice
+
+[2026-01-02 01:38:54.413 Uid(value=10439):8861:8861 V/GraphicsEnvironment]
+Neither updatable production driver nor prerelease driver is supported.
+
+[2026-01-02 01:38:54.456 Uid(value=10439):8861:8861 D/nativeloader]
+Load /data/app/~~OelJS89jQRCOlOjtwz1YXw==/com.itsaky.androidide-qqQd0OEhennCnK_ko4txTQ==/lib/arm64/libandroid-tree-sitter.so using class loader ns clns-9 (caller=/data/app/~~OelJS89jQRCOlOjtwz1YXw==/com.itsaky.androidide-qqQd0OEhennCnK_ko4txTQ==/base.apk!classes19.dex): ok
+
+[2026-01-02 01:38:54.463 Uid(value=10439):8861:8861 D/WM-WrkMgrInitializer]
+Initializing WorkManager with default configuration.
+
+[2026-01-02 01:38:54.477 Uid(value=10439):8861:8861 D/WM-PackageManagerHelper]
+Skipping component enablement for androidx.work.impl.background.systemjob.SystemJobService
+
+[2026-01-02 01:38:54.477 Uid(value=10439):8861:8861 D/WM-Schedulers]
+Created SystemJobScheduler and enabled SystemJobService
+
+[2026-01-02 01:38:54.494 Uid(value=10439):8861:8861 I/saky.androidide]
+hiddenapi: Accessing hidden method Landroid/view/WindowManagerGlobal;->getInstance()Landroid/view/WindowManagerGlobal; (runtime_flags=0, domain=platform, api=unsupported) from Lcurtains/internal/WindowManagerSpy$windowManagerInstance$2; (domain=app, TargetSdkVersion=28) using reflection: allowed
+
+[2026-01-02 01:38:54.494 Uid(value=10439):8861:8861 I/saky.androidide]
+hiddenapi: Accessing hidden field Landroid/view/WindowManagerGlobal;->mViews:Ljava/util/ArrayList; (runtime_flags=0, domain=platform, api=unsupported) from Lcurtains/internal/WindowManagerSpy$mViewsField$2; (domain=app, TargetSdkVersion=28) using reflection: allowed
+
+[2026-01-02 01:38:54.494 Uid(value=10439):8861:8861 I/saky.androidide]
+hiddenapi: Accessing hidden field Landroid/app/ActivityThread;->mH:Landroid/app/ActivityThread$H; (runtime_flags=0, domain=platform, api=unsupported) from Lleakcanary/ServiceWatcher; (domain=app, TargetSdkVersion=28) using reflection: allowed
+
+[2026-01-02 01:38:54.494 Uid(value=10439):8861:8861 I/saky.androidide]
+hiddenapi: Accessing hidden method Landroid/app/ActivityThread;->currentActivityThread()Landroid/app/ActivityThread; (runtime_flags=0, domain=platform, api=unsupported) from Lleakcanary/ServiceWatcher$activityThreadInstance$2; (domain=app, TargetSdkVersion=28) using reflection: allowed
+
+[2026-01-02 01:38:54.494 Uid(value=10439):8861:8861 I/saky.androidide]
+hiddenapi: Accessing hidden field Landroid/os/Handler;->mCallback:Landroid/os/Handler$Callback; (runtime_flags=0, domain=platform, api=unsupported) from Lleakcanary/ServiceWatcher; (domain=app, TargetSdkVersion=28) using reflection: allowed
+
+[2026-01-02 01:38:54.494 Uid(value=10439):8861:8861 I/saky.androidide]
+hiddenapi: Accessing hidden field Landroid/util/Singleton;->mInstance:Ljava/lang/Object; (runtime_flags=0, domain=platform, api=unsupported) from Lleakcanary/ServiceWatcher; (domain=app, TargetSdkVersion=28) using reflection: allowed
+
+[2026-01-02 01:38:54.494 Uid(value=10439):8861:8861 I/saky.androidide]
+hiddenapi: Accessing hidden method Landroid/util/Singleton;->get()Ljava/lang/Object; (runtime_flags=0, domain=platform, api=unsupported) from Lleakcanary/ServiceWatcher; (domain=app, TargetSdkVersion=28) using reflection: allowed
+
+[2026-01-02 01:38:54.495 Uid(value=10439):8861:8861 I/saky.androidide]
+hiddenapi: Accessing hidden field Landroid/app/ActivityManager;->IActivityManagerSingleton:Landroid/util/Singleton; (runtime_flags=0, domain=platform, api=unsupported) from Lleakcanary/ServiceWatcher; (domain=app, TargetSdkVersion=28) using reflection: allowed
+
+[2026-01-02 01:38:54.500 Uid(value=10439):8861:8861 D/DesktopExperienceFlags]
+Toggle override initialized to: false
+
+[2026-01-02 01:38:54.512 Uid(value=10439):8861:8861 E/com.itsaky.androidide.*]
+02-01 01:38:54.505 ERROR [main] Environment: Unable to set executable permissions to file: /data/user/0/com.itsaky.androidide/files/usr/opt/openjdk/bin/java
+
+[2026-01-02 01:38:54.512 Uid(value=10439):8861:8861 E/com.itsaky.androidide.*]
+02-01 01:38:54.512 ERROR [main] Environment: Unable to set executable permissions to file: /data/user/0/com.itsaky.androidide/files/usr/bin/bash
+
+[2026-01-02 01:38:54.579 Uid(value=10439):8861:8885 D/com.itsaky.androidide.*]
+02-01 01:38:54.578 DEBUG [ForkJoinPool.commonPool-worker-1] JdkDistributionProviderImpl: Setting Environment.JAVA_HOME to 
+
+[2026-01-02 01:38:54.578 Uid(value=10439):8861:8861 W/onPool-worker-1]
+type=1400 audit(0.0:2120): avc:  granted  { execute } for  name="aapt2" dev="dm-53" ino=909377 scontext=u:r:untrusted_app_27:s0:c183,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c183,c257,c512,c768 tclass=file app=com.itsaky.androidide
+
+[2026-01-02 01:38:54.584 Uid(value=10439):8861:8861 W/AndroidIDE.SharedProperties]
+Not loading properties since file is null
+
+[2026-01-02 01:38:54.585 Uid(value=10439):8861:8861 I/AndroidIDE.TermuxApplication]
+Termux files directory is accessible
+
+[2026-01-02 01:38:54.587 Uid(value=10439):8861:8861 D/nativeloader]
+Load liblocal-socket.so using class loader ns clns-9 (caller=/data/app/~~OelJS89jQRCOlOjtwz1YXw==/com.itsaky.androidide-qqQd0OEhennCnK_ko4txTQ==/base.apk!classes2.dex): dlopen failed: library "liblocal-socket.so" not found
+
+[2026-01-02 01:38:54.589 Uid(value=10439):8861:8861 E/AndroidIDE.LocalSocketManager]
+Error Code: `100`
+Error Message (LocalSocket Error):
+```
+Failed to load "local-socket" library.
+Exception: dlopen failed: library "liblocal-socket.so" not found
+```
+
+[2026-01-02 01:38:54.612 Uid(value=10439):8861:8890 I/DisplayManager]
+Choreographer implicitly registered for the refresh rate.
+
+[2026-01-02 01:38:54.613 Uid(value=10439):8861:8890 D/vulkan]
+searching for layers in '/data/app/~~OelJS89jQRCOlOjtwz1YXw==/com.itsaky.androidide-qqQd0OEhennCnK_ko4txTQ==/lib/arm64'
+
+[2026-01-02 01:38:54.614 Uid(value=10439):8861:8890 D/vulkan]
+searching for layers in '/data/app/~~OelJS89jQRCOlOjtwz1YXw==/com.itsaky.androidide-qqQd0OEhennCnK_ko4txTQ==/base.apk!/lib/arm64-v8a'
+
+[2026-01-02 01:38:54.633 Uid(value=10439):8861:8882 D/LeakCanary]
+LeakCanary is running and ready to detect memory leaks.
+
+[2026-01-02 01:38:54.648 Uid(value=10439):8861:8861 D/DesktopModeFlags]
+Toggle override initialized to: OVERRIDE_UNSET
+
+[2026-01-02 01:38:54.664 Uid(value=10439):8861:8861 I/HWUI]
+Using FreeType backend (prop=Auto)
+
+[2026-01-02 01:38:54.703 Uid(value=10439):8861:8861 W/ActivityThread]
+Activity top position already set to onTop=false
+
+[2026-01-02 01:38:54.706 Uid(value=10439):8861:8861 D/WindowOnBackDispatcher]
+setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@a0a95ff
+
+[2026-01-02 01:38:54.707 Uid(value=10439):8861:8861 D/WindowOnBackDispatcher]
+setTopOnBackInvokedCallback (unwrapped): androidx.activity.OnBackPressedDispatcher$Api34Impl$createOnBackAnimationCallback$1@9cd0215
+
+[2026-01-02 01:38:54.709 Uid(value=10439):8861:8861 D/VRI[CrashHandlerActivity]]
+WindowInsets changed: 1440x3120 statusBars:[0,145,0,0] navigationBars:[0,0,0,84] mandatorySystemGestures:[0,187,0,112] 
+
+[2026-01-02 01:38:55.023 Uid(value=10439):8861:8866 I/saky.androidide]
+Compiler allocated 5038KB to compile void android.view.ViewRootImpl.performTraversals()
+
+[2026-01-02 01:39:00.226 Uid(value=10439):8861:8920 D/ProfileInstaller]
+Installing profile for com.itsaky.androidide
+
+[2026-01-02 01:39:01.891 Uid(value=10439):8861:8861 I/ImeTracker]
+com.itsaky.androidide:4e05bc07: onRequestHide at ORIGIN_CLIENT reason HIDE_WINDOW_LOST_FOCUS fromUser false userId 0 displayId 0
+
+[2026-01-02 01:39:01.891 Uid(value=10439):8861:8861 D/InsetsController]
+hide(ime())
+
+[2026-01-02 01:39:01.892 Uid(value=10439):8861:8861 I/ImeTracker]
+com.itsaky.androidide:4e05bc07: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+
+[2026-01-02 01:39:02.887 Uid(value=10439):8861:8861 D/VRI[CrashHandlerActivity]]
+visibilityChanged oldVisibility=true newVisibility=false
+
+[2026-01-02 01:39:02.939 Uid(value=10439):8861:8861 D/WindowOnBackDispatcher]
+setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@a0a95ff
+
+[2026-01-02 01:39:02.942 Uid(value=10439):8861:8861 D/LeakCanary]
+Watching instance of androidx.fragment.app.FragmentManagerViewModel (androidx.fragment.app.FragmentManagerViewModel received ViewModel#onCleared() callback) with key e3c8f9cc-ec97-43d0-87f6-759193569256
+
+[2026-01-02 01:39:02.942 Uid(value=10439):8861:8861 D/LeakCanary]
+Watching instance of leakcanary.internal.ViewModelClearedWatcher (leakcanary.internal.ViewModelClearedWatcher received ViewModel#onCleared() callback) with key eb97b2b9-0684-4627-8db0-dff980fd57b7
+
+[2026-01-02 01:39:02.945 Uid(value=10439):8861:8861 D/LeakCanary]
+Watching instance of androidx.lifecycle.SavedStateHandlesVM (androidx.lifecycle.SavedStateHandlesVM received ViewModel#onCleared() callback) with key cd376056-3954-4eea-9aed-ee6824de0109
+
+[2026-01-02 01:39:02.951 Uid(value=10439):8861:8861 D/LeakCanary]
+Watching instance of androidx.lifecycle.ReportFragment (androidx.lifecycle.ReportFragment received Fragment#onDestroy() callback) with key 7fcb7ad6-e443-46d1-8165-80ea66990a81
+
+[2026-01-02 01:39:02.954 Uid(value=10439):8861:8861 D/LeakCanary]
+Watching instance of com.itsaky.androidide.activities.CrashHandlerActivity (com.itsaky.androidide.activities.CrashHandlerActivity received Activity#onDestroy() callback) with key d3a4a1c6-550d-4df4-8f67-808fa7f0b911
+
+[2026-01-02 01:39:02.955 Uid(value=10439):8861:8861 D/WindowOnBackDispatcher]
+setTopOnBackInvokedCallback (unwrapped): null
+
+[2026-01-02 01:39:02.967 Uid(value=10439):8861:8861 D/LeakCanary]
+Watching instance of androidx.constraintlayout.widget.ConstraintLayout (com.itsaky.androidide.fragments.CrashReportFragment received Fragment#onDestroyView() callback (references to its views should be cleared to prevent leaks)) with key e9051aad-2a3c-4ea5-9f59-a9346afb6f4f
+
+[2026-01-02 01:39:02.968 Uid(value=10439):8861:8861 D/LeakCanary]
+Watching instance of androidx.lifecycle.SavedStateHandlesVM (androidx.lifecycle.SavedStateHandlesVM received ViewModel#onCleared() callback) with key 9b72f7ea-b620-453a-9233-dbe36c5736f0
+
+[2026-01-02 01:39:02.968 Uid(value=10439):8861:8861 D/LeakCanary]
+Watching instance of leakcanary.internal.ViewModelClearedWatcher (leakcanary.internal.ViewModelClearedWatcher received ViewModel#onCleared() callback) with key f07121be-9045-40da-842c-c82d6a785ccf
+
+[2026-01-02 01:39:02.968 Uid(value=10439):8861:8861 D/LeakCanary]
+Watching instance of androidx.loader.app.LoaderManagerImpl$LoaderViewModel (androidx.loader.app.LoaderManagerImpl$LoaderViewModel received ViewModel#onCleared() callback) with key 4e79cb97-e0d2-4d30-8982-f962169d4815
+
+[2026-01-02 01:39:02.969 Uid(value=10439):8861:8861 D/LeakCanary]
+Watching instance of com.itsaky.androidide.fragments.CrashReportFragment (com.itsaky.androidide.fragments.CrashReportFragment received Fragment#onDestroy() callback) with key 052b8c32-30d9-4677-9ffe-fddaf22ce725
+
+[2026-01-02 01:39:02.975 Uid(value=10439):8861:8861 D/ViewRootImpl]
+Skipping stats log for color mode
+
+[2026-01-02 01:39:08.018 Uid(value=10439):8861:8882 W/saky.androidide]
+Cleared Reference was only reachable from finalizer (only reported once)
+
+[2026-01-02 01:39:08.042 Uid(value=10439):8861:8882 W/saky.androidide]
+userfaultfd: MOVE ioctl seems unsupported: Success
+
+[2026-01-02 01:39:08.114 Uid(value=10439):8861:8882 I/saky.androidide]
+Explicit concurrent mark compact GC freed 5045KB AllocSpace bytes, 22(1580KB) LOS objects, 64% free, 4485KB/12MB, paused 423us,23.366ms total 169.272ms
+

@@ -1,0 +1,10 @@
+R_DEF: Internal format may change without notice
+local
+id btn_explain_code
+id btn_fix_build_error
+id btn_generate_code
+id btn_optimize_code
+id btn_terminal_assist
+id et_prompt
+id tv_result
+layout fragment_ai_cli_sidebar

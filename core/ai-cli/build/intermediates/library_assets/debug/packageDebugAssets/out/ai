@@ -1,0 +1,36 @@
+#!/system/bin/sh
+
+# AI Terminal Assistant for AndroidIDE/Termux
+# Usage: ai <command> or ai-help <command>
+
+SCRIPT_DIR="$(dirname "$0")"
+AI_CLI_JAR="$SCRIPT_DIR/../lib/ai-cli.jar"
+
+if [ ! -f "$AI_CLI_JAR" ]; then
+    echo "AI CLI not found. Please ensure AndroidIDE AI module is installed."
+    exit 1
+fi
+
+case "$1" in
+    "help"|"-h"|"--help")
+        echo "AI Terminal Assistant Commands:"
+        echo "  ai <prompt>        - Generate code or get AI assistance"
+        echo "  ai explain <code>  - Explain code snippet"
+        echo "  ai fix <error>     - Get fix suggestions for errors"
+        echo "  ai-help <command>  - Get help for terminal commands"
+        ;;
+    "explain")
+        shift
+        echo "Explaining: $*"
+        # Call AI explanation
+        ;;
+    "fix")
+        shift
+        echo "Finding fix for: $*"
+        # Call AI fix
+        ;;
+    *)
+        echo "AI Processing: $*"
+        # Call general AI assistance
+        ;;
+esac
