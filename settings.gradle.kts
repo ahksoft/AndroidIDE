@@ -125,7 +125,7 @@ include(
   ":annotation:processors",
   ":annotation:processors-ksp",
   ":core:actions",
-  ":core:ai-cli",
+  // ":core:ai-cli", // Disabled - build issues
   ":core:app",
   ":core:common",
   ":core:indexing-api",

@@ -139,7 +139,7 @@ dependencies {
   implementation(libs.composite.javapoet)
 
   // Local projects here
-  // implementation(projects.core.aiCli)
+  // implementation(projects.core.aiCli) // Disabled - build issues
   implementation(projects.core.common)
   implementation(projects.core.indexingApi)
   implementation(projects.core.indexingCore)
